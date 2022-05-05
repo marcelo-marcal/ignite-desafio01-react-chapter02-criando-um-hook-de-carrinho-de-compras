@@ -6,6 +6,13 @@
 
 # Criando um Hook de Carrinho de Compras
 
+No terminal:
+`yarn`
+
+`yarn server`
+
+E rodar a API: `yarn start`
+
 Vamos iniciar no:
 `pages/Home/index.tsx`
 
@@ -165,6 +172,8 @@ const cartItemsAmount = cart.reduce((sumAmount, product) => {
   return sumAmount
 }, {} as CartItemsAmount)
 ```
+
+Agora vamos no carrinho:
 
 
 
